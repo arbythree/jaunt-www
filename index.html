@@ -1,7 +1,111 @@
+<!DOCTYPE html>
 <html>
 <head>
+  <title>Jaunt, Transit Apps for Savvy Commuters</title>
+  <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #eee;
+      font-family: Karla, sans-serif;
+    }
+
+    main {
+      margin: 0 auto;
+      background-color: #fff;
+    }
+
+    header {
+      background-color: #111;
+      height: 60px;
+    }
+
+    #hero {
+      width: 100%;
+      height: 600px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    #hero video {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: auto;
+      /*z-index: -1;*/
+    }
+
+    #hero div {
+      color: #fff;
+      font-size: 150%;
+      width: 960px;
+      margin: 0 auto;
+      padding-top: 60px;
+      position: relative;
+      z-index: 1000;
+    }
+
+    #hero h1 {
+      font-size: 75px;
+      margin: 0;
+    }
+
+    #hero div p {
+      width: 66.666%
+    }
+
+    #hero a {
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 75%;
+      border: 1px solid #fff;
+      padding: 15px;
+      border-radius: 5px;
+      font-family: Karla-Bold;
+      letter-spacing: 1px;
+    }
+
+    #hero p {
+      margin-bottom: 2em;
+    }
+
+    section {
+      width: 960px;
+      margin: 0 auto;
+    }
+  </style>
 </head>
 <body>
-Hello.
+  <header>
+    <nav></nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <div>
+        <h1>The iPhone app for <br/>the savvy commuter</h1>
+        <p>Jaunt makes commuting on the Metro-North Railway <br/>easy as pie.</p>
+        <p><a href="https://itunes.apple.com/us/app/jaunt-mnr/id1146157785?ls=1&mt=8">Download</a></p>
+      </div>
+      <video autoplay muted loop>
+        <source src="hero.mp4" type="video/mp4">
+      </video>
+    </section>
+
+    <section>
+      <h2>Readable in the extreme</h2>
+      <p></p>
+    </section>
+
+    <section>
+      <h2>Anticipates your next move</h2>
+      <p></p>
+    </section>    
+  </main>
 </body>
 </html>
